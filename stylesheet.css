@@ -1,0 +1,135 @@
+header {
+  font-size:2em;
+  position:fixed;
+  right:0em;
+  width:100%;
+  margin-top: -3em;
+  background-color:white;
+  overflow: auto;
+  z-index: 1;
+  padding-bottom:-2em;
+}
+
+header p{
+  margin-right:1em;
+  margin-left:1em;
+}
+
+#contact {
+  float:right;
+  margin-top:-2em;
+  padding-bottom:-2em;
+}
+
+#splash img {
+    position: absolute;
+    /*left: 20%;*/
+    width: 100% ;
+    top:10%;
+    /*bottom: 8%;*/
+    /*transition: bottom 1s;*/
+}
+
+#splash:hover {
+ cursor:pointer;
+}
+
+
+
+body {
+  margin: 0;
+  padding-top: 3em;
+  overflow-y: hidden;
+  height:100%;
+}
+
+body p {
+  font-size: 1.5em;
+  font-weight: bold:
+}
+
+.wrapper {
+  margin: 0em 3em 3em 3em;
+  padding-top: 4em;
+  /*transition: margin-top 3s;*/
+  max-width: 90%;
+  font-size:1.5em;
+  /*max-width: 50em;*/
+  display: none;
+}
+
+.google{
+  display:none;
+  /*box-sizing: border-box;
+      background-color: #f1f1f1;*/
+
+}
+
+/*.googleBox{
+  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    padding: 6px 9px 0;
+}*/
+
+
+.googleBox {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #666;
+    border-color: #e5e5e5;
+    height: 4em;;
+    padding-top: 2em;
+
+}
+
+.googleBox img{
+  border: 0;
+  left: 0;
+  margin: 0 0 0 1em;
+  float:left;
+  display:inline;
+  position: absolute;
+  top: -16.5em;
+}
+
+input {
+  background-color:white;
+  padding-left: 30em;
+  width:20%;
+  height:40%;
+  margin: -1em 0 0 11em;;
+
+}
+
+.btn {
+  width:8%;
+  margin: -2.3em 0 0 45em;
+}
+/*.googleSearch {
+  /*border-color: #e5e5e5;*/
+  /*padding: 10em;*/
+  /*display:none;
+  right:-20em;
+  padding-left: -10em;
+  margin: 2em 2em 2em 100em;*/
+  /*height:30%;*/
+  /*width: 100%;
+  position: absolute;
+  z-index: 6;*/
+  /*left: 0em;*/
+  /*float:right;*/
+  /*display:inline;*/
+  /*outline: none;
+  background-color:purple;*/
+  /*background: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D) transparent;*/
+/*}*/
+
+/*.googleSearch input {
+  right: -100em;
+  background-color:purple;
+}*/
+
+/*.github{
+  display:none;
+}*/
